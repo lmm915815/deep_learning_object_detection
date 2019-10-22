@@ -1,7 +1,7 @@
 # deep learning object detection
 A paper list of object detection using deep learning. I wrote this page with reference to [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf) and searching and searching.. 
 
-*Last updated: 2019/05/23*
+*Last updated: 2019/10/18*
 
 #### Update log
 *2018/9/18* - update all of recent papers and make some diagram about history of object detection using deep learning. 
@@ -14,6 +14,10 @@ A paper list of object detection using deep learning. I wrote this page with ref
 *2019/march* - update figure and code links.  
 *2019/april* - remove author's names and update ICLR 2019 & CVPR 2019 papers.  
 *2019/may* - update CVPR 2019 papers.  
+*2019/june* - update CVPR 2019 papers and dataset paper.  
+*2019/july* - update BMVC 2019 papers and some of ICCV 2019 papers.  
+*2019/september* - update NeurIPS 2019 papers and ICCV 2019 papers.  
+
 
 
 ##
@@ -265,7 +269,7 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - Bounding Box Regression with Uncertainty for Accurate Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1809.08545.pdf) | [`[official code - caffe2]`](https://github.com/yihui-he/KL-Loss)
 
-- Activity Driven Weakly Supervised Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.01665.pdf) | [`[official code - pytorch]`](https://github.com/zhenheny/ADWSOD) 
+- Activity Driven Weakly Supervised Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.01665.pdf) 
 
 - Towards Accurate One-Stage Object Detection with AP-Loss | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.06373.pdf) 
 
@@ -289,37 +293,204 @@ FPS(Speed) index is related to the hardware spec(e.g. CPU, GPU, RAM, etc), so it
 
 - Dissimilarity Coefficient based Weakly Supervised Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1811.10016) 
 
-- Adapting Object Detectors via Selective Cross-Domain Alignment | **[CVPR' 19]**
+- Adapting Object Detectors via Selective Cross-Domain Alignment | **[CVPR' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_Adapting_Object_Detectors_via_Selective_Cross-Domain_Alignment_CVPR_2019_paper.pdf) 
 
 - Fully Quantized Network for Object Detection | **[CVPR' 19]** |[`[pdf]`](https://yan-junjie.github.io/publication/dblp-confcvprlilqwfy-19/dblp-confcvprlilqwfy-19.pdf)
 
-- Distilling Object Detectors with Fine-grained Feature Imitation | **[CVPR' 19]**
+- Distilling Object Detectors with Fine-grained Feature Imitation | **[CVPR' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Distilling_Object_Detectors_With_Fine-Grained_Feature_Imitation_CVPR_2019_paper.pdf)
 
-- Multi-task Self-Supervised Object Detection via Recycling of Bounding Box Annotations | **[CVPR' 19]**
+- Multi-task Self-Supervised Object Detection via Recycling of Bounding Box Annotations | **[CVPR' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_CVPR_2019/papers/Lee_Multi-Task_Self-Supervised_Object_Detection_via_Recycling_of_Bounding_Box_Annotations_CVPR_2019_paper.pdf)
 
-- **[Reasoning-RCNN]** Reasoning-RCNN: Unifying Adaptive Global Reasoning into Large-scale Object Detection | **[CVPR' 19]**
+- **[Reasoning-RCNN]** Reasoning-RCNN: Unifying Adaptive Global Reasoning into Large-scale Object Detection | **[CVPR' 19]** |[`[pdf]`]()
 
 - Arbitrary Shape Scene Text Detection with Adaptive Text Region Representation | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1905.05980.pdf)
 
 - Assisted Excitation of Activations: A Learning Technique to Improve Object Detectors | **[CVPR' 19]** |[`[pdf]`](https://pdfs.semanticscholar.org/ec96/b6ae95e1ebbe4f7c0252301ede26dfc79467.pdf)
 
-- Spatial-aware Graph Relation Network for Large-scale Object Detection | **[CVPR' 19]**
+- Spatial-aware Graph Relation Network for Large-scale Object Detection | **[CVPR' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Spatial-Aware_Graph_Relation_Network_for_Large-Scale_Object_Detection_CVPR_2019_paper.pdf)
 
-- **[MaxpoolNMS]** MaxpoolNMS: Getting Rid of NMS Bottlenecks in Two-Stage Object Detectors | **[CVPR' 19]**
+- **[MaxpoolNMS]** MaxpoolNMS: Getting Rid of NMS Bottlenecks in Two-Stage Object Detectors | **[CVPR' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_CVPR_2019/papers/Cai_MaxpoolNMS_Getting_Rid_of_NMS_Bottlenecks_in_Two-Stage_Object_Detectors_CVPR_2019_paper.pdf)
 
 - You reap what you sow: Generating High Precision Object Proposals for Weakly-supervised Object Detection | **[CVPR' 19]** |[`[pdf]`](https://web.cs.ucdavis.edu/~yjlee/projects/cvpr2019-youreapwhatyousow.pdf)
 
-- Object detection with location-aware deformable convolution and backward attention filtering | **[CVPR' 19]**
+- Object detection with location-aware deformable convolution and backward attention filtering | **[CVPR' 19]** |[`[pdf]`](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Object_Detection_With_Location-Aware_Deformable_Convolution_and_Backward_Attention_Filtering_CVPR_2019_paper.pdf)
 
 - Diversify and Match: A Domain Adaptive Representation Learning Paradigm for Object Detection | **[CVPR' 19]** |[`[pdf]`](https://arxiv.org/pdf/1905.05396.pdf)
+
+- **[GFR]** Improving Object Detection from Scratch via Gated Feature Reuse | **[BMVC' 19]** |[`[pdf]`](https://arxiv.org/pdf/1712.00886v2.pdf) | [`[official code - pytorch]`](https://github.com/szq0214/GFR-DSOD)
+
+- **[Cascade RetinaNet]** Cascade RetinaNet: Maintaining Consistency for Single-Stage Object Detection | **[BMVC' 19]** |[`[pdf]`](https://arxiv.org/pdf/1907.06881v1.pdf)
+
+- Soft Sampling for Robust Object Detection | **[BMVC' 19]** |[`[pdf]`](https://arxiv.org/pdf/1806.06986v2.pdf)
+
+- Multi-adversarial Faster-RCNN for Unrestricted Object Detection | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1907.10343v1.pdf)
+
+- Towards Adversarially Robust Object Detection | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1907.10310v1.pdf)
+
+- A Robust Learning Approach to Domain Adaptive Object Detection | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.02361.pdf)
+
+- A Delay Metric for Video Object Detection: What Average Precision Fails to Tell	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.06368.pdf)
+
+- Delving Into Robust Object Detection From Unmanned Aerial Vehicles: A Deep Nuisance Disentanglement Approach | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.03856.pdf)
+
+- Employing Deep Part-Object Relationships for Salient Object Detection	| **[ICCV' 19]**
+
+- Learning Rich Features at High-Speed for Single-Shot Object Detection	| **[ICCV' 19]**
+
+- Structured Modeling of Joint Deep Feature and Prediction Refinement for Salient Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.04366.pdf)
+
+- Selectivity or Invariance: Boundary-Aware Salient Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1812.10066.pdf)
+
+- Progressive Sparse Local Attention for Video Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1903.09126.pdf)
+
+- Minimum Delay Object Detection From Video	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.11092.pdf)
+
+- Towards Interpretable Object Detection by Unfolding Latent Structures	 | **[ICCV' 19]** 
+
+- Scaling Object Detection by Transferring Classification Weights	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.06804.pdf)
+
+- **[TridentNet]** Scale-Aware Trident Networks for Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1901.01892.pdf)
+
+- Generative Modeling for Small-Data Object Detection	| **[ICCV' 19]**
+
+- Transductive Learning for Zero-Shot Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://salman-h-khan.github.io/papers/ICCV19-2.pdf)
+
+- Self-Training and Adversarial Background Regularization for Unsupervised Domain Adaptive One-Stage Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.00597.pdf)
+
+-  **[CenterNet]** CenterNet: Keypoint Triplets for Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.08189.pdf)
+
+- **[DAFS]** Dynamic Anchor Feature Selection for Single-Shot Object Detection	| **[ICCV' 19]** |[`[pdf]`](http://www4.comp.polyu.edu.hk/~cslzhang/paper/ICCV-DAFS.pdf)
+
+- **[Auto-FPN]** Auto-FPN: Automatic Network Architecture Adaptation for Object Detection Beyond Classification	| **[ICCV' 19]**
+
+- Multi-Adversarial Faster-RCNN for Unrestricted Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1907.10343.pdf)
+
+- Object Guided External Memory Network for Video Object Detection | **[ICCV' 19]**
+
+- **[ThunderNet]** ThunderNet: Towards Real-Time Generic Object Detection on Mobile Devices	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1903.11752.pdf)
+
+- **[RDN]** Relation Distillation Networks for Video Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.09511.pdf)
+
+- **[MMNet]** Fast Object Detection in Compressed Video	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1811.11057.pdf)
+
+- Towards High-Resolution Salient Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.07274.pdf)
+
+- **[SCAN]** Stacked Cross Refinement Network for Edge-Aware Salient Object Detection	| **[ICCV' 19]** |[`[official code]`](https://github.com/wuzhe71/SCAN)
+
+- Motion Guided Attention for Video Salient Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.07061.pdf)
+
+- Semi-Supervised Video Salient Object Detection Using Pseudo-Labels	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.04051.pdf)
+
+- Learning to Rank Proposals for Object Detection	| **[ICCV' 19]**
+
+- **[WSOD2]** WSOD2: Learning Bottom-Up and Top-Down Objectness Distillation for Weakly-Supervised Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.04972.pdf)
+
+- **[ClusDet]** Clustered Object Detection in Aerial Images	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.08008.pdf)
+
+- Towards Precise End-to-End Weakly Supervised Object Detection Network	| **[ICCV' 19]**
+
+- Few-Shot Object Detection via Feature Reweighting	 | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1812.01866.pdf)
+
+- **[Objects365]** Objects365: A Large-Scale, High-Quality Dataset for Object Detection	| **[ICCV' 19]**
+
+- **[EGNet]** EGNet: Edge Guidance Network for Salient Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.08297.pdf)
+
+- Optimizing the F-Measure for Threshold-Free Salient Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1805.07567.pdf)
+
+- Sequence Level Semantics Aggregation for Video Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1907.06390.pdf)
+
+- **[NOTE-RCNN]** NOTE-RCNN: NOise Tolerant Ensemble RCNN for Semi-Supervised Object Detection | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1812.00124.pdf)	
+
+- Enriched Feature Guided Refinement Network for Object Detection	| **[ICCV' 19]**
+
+- **[POD]** POD: Practical Object Detection With Scale-Sensitive Network	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.02225.pdf)	
+
+- **[FCOS]** FCOS: Fully Convolutional One-Stage Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.01355.pdf)	
+
+- **[RepPoints]** RepPoints: Point Set Representation for Object Detection	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.11490.pdf)	
+
+- Better to Follow, Follow to Be Better: Towards Precise Supervision of Feature Super-Resolution for Small Object Detection	| **[ICCV' 19]** 
+
+- Weakly Supervised Object Detection With Segmentation Collaboration	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.00551.pdf)	
+
+- Leveraging Long-Range Temporal Relationships Between Proposals for Video Object Detection	| **[ICCV' 19]**
+
+- Detecting 11K Classes: Large Scale Object Detection Without Fine-Grained Bounding Boxes	| **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1908.05217.pdf)	
+
+- **[C-MIDN]** C-MIDN: Coupled Multiple Instance Detection Network With Segmentation Guidance for Weakly Supervised Object Detection	| **[ICCV' 19]** 
+
+- Meta-Learning to Detect Rare Objects	| **[ICCV' 19]**
+
+- **[Cap2Det]** Cap2Det: Learning to Amplify Weak Caption Supervision for Object Detection | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1907.10164v1.pdf)
+
+- **[Gaussian YOLOv3]** Gaussian YOLOv3: An Accurate and Fast Object Detector using Localization Uncertainty for Autonomous Driving | **[ICCV' 19]** |[`[pdf]`](https://arxiv.org/pdf/1904.04620.pdf) [`[official code - c]`](https://github.com/jwchoi384/Gaussian_YOLOv3)
+
+- **[FreeAnchor]** FreeAnchor: Learning to Match Anchors for Visual Object Detection | **[NeurIPS' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.02466v1.pdf)
+
+- Memory-oriented Decoder for Light Field Salient Object Detection | **[NeurIPS' 19]** |
+
+- One-Shot Object Detection with Co-Attention and Co-Excitation | **[NeurIPS' 19]** |
+
+- **[DetNAS]** DetNAS: Backbone Search for Object Detection | **[NeurIPS' 19]** |[`[pdf]`](https://arxiv.org/pdf/1903.10979.pdf)
+
+- Consistency-based Semi-supervised Learning for Object detection | **[NeurIPS' 19]** |
+
+- **[NATS]** Efficient Neural Architecture Transformation Searchin Channel-Level for Object Detection | **[NeurIPS' 19]** |[`[pdf]`](https://arxiv.org/pdf/1909.02293.pdf)
+
 
 ##
 
 ## Dataset Papers
-Statistics of commonly used object detection datasets. The Figure came from [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf).
-<p align="center">
-  <img width="700" src="/assets/deep_learning_object_detection_dataset.PNG" "Commonly used object detection datasets.">
-</p>
+Statistics of commonly used object detection datasets. The Table came from [this survey paper](https://arxiv.org/pdf/1809.02165v1.pdf).
+
+<table>
+<thead>
+  <tr>
+    <th rowspan=2>Challenge</th>
+    <th rowspan=2 width=80>Object Classes</th>
+    <th colspan=3>Number of Images</th>
+    <th colspan=2>Number of Annotated Images</th>
+  </tr>
+  <tr>
+    <th>Train</th>
+    <th>Val</th>
+    <th>Test</th>
+    <th>Train</th>
+    <th>Val</th>
+  </tr>
+</thead>
+<tbody>
+
+<!-- PASCAL VOC Object Detection Challenge -->
+<tr><th colspan=7>PASCAL VOC Object Detection Challenge</th></tr>
+<tr><td> VOC07 </td><td> 20 </td><td> 2,501 </td><td> 2,510 </td><td>  4,952 </td><td>   6,301 (7,844) </td><td>   6,307 (7,818) </td></tr>
+<tr><td> VOC08 </td><td> 20 </td><td> 2,111 </td><td> 2,221 </td><td>  4,133 </td><td>   5,082 (6,337) </td><td>   5,281 (6,347) </td></tr>
+<tr><td> VOC09 </td><td> 20 </td><td> 3,473 </td><td> 3,581 </td><td>  6,650 </td><td>   8,505 (9,760) </td><td>   8,713 (9,779) </td></tr>
+<tr><td> VOC10 </td><td> 20 </td><td> 4,998 </td><td> 5,105 </td><td>  9,637 </td><td> 11,577 (13,339) </td><td> 11,797 (13,352) </td></tr>
+<tr><td> VOC11 </td><td> 20 </td><td> 5,717 </td><td> 5,823 </td><td> 10,994 </td><td> 13,609 (15,774) </td><td> 13,841 (15,787) </td></tr>
+<tr><td> VOC12 </td><td> 20 </td><td> 5,717 </td><td> 5,823 </td><td> 10,991 </td><td> 13,609 (15,774) </td><td> 13,841 (15,787) </td></tr>
+
+<!-- ILSVRC Object Detection Challenge -->
+<tr><th colspan=7>ILSVRC Object Detection Challenge</th></tr>
+<tr><td> ILSVRC13 </td><td> 200 </td><td> 395,909 </td><td> 20,121 </td><td> 40,152 </td><td> 345,854 </td><td> 55,502 </td></tr>
+<tr><td> ILSVRC14 </td><td> 200 </td><td> 456,567 </td><td> 20,121 </td><td> 40,152 </td><td> 478,807 </td><td> 55,502 </td></tr>
+<tr><td> ILSVRC15 </td><td> 200 </td><td> 456,567 </td><td> 20,121 </td><td> 51,294 </td><td> 478,807 </td><td> 55,502 </td></tr>
+<tr><td> ILSVRC16 </td><td> 200 </td><td> 456,567 </td><td> 20,121 </td><td> 60,000 </td><td> 478,807 </td><td> 55,502 </td></tr>
+<tr><td> ILSVRC17 </td><td> 200 </td><td> 456,567 </td><td> 20,121 </td><td> 65,500 </td><td> 478,807 </td><td> 55,502 </td></tr>
+
+<!-- MS COCO Object Detection Challenge -->
+<tr><th colspan=7>MS COCO Object Detection Challenge</th></tr>
+<tr><td> MS COCO15 </td><td> 80 </td><td>  82,783 </td><td> 40,504 </td><td> 81,434 </td><td> 604,907 </td><td> 291,875 </td></tr>
+<tr><td> MS COCO16 </td><td> 80 </td><td>  82,783 </td><td> 40,504 </td><td> 81,434 </td><td> 604,907 </td><td> 291,875 </td></tr>
+<tr><td> MS COCO17 </td><td> 80 </td><td> 118,287 </td><td>  5,000 </td><td> 40,670 </td><td> 860,001 </td><td>  36,781 </td></tr>
+<tr><td> MS COCO18 </td><td> 80 </td><td> 118,287 </td><td>  5,000 </td><td> 40,670 </td><td> 860,001 </td><td>  36,781 </td></tr>
+
+<!-- Open Images Object Detection Challenge -->
+<tr><th colspan=7>Open Images Object Detection Challenge</th></tr>
+<tr><td> OID18 </td><td> 500 </td><td> 1,743,042 </td><td> 41,620 </td><td> 125,436 </td><td> 12,195,144 </td><td> ― </td></tr>
+
+  </tbody>
+</table>
 
 The papers related to datasets used mainly in Object Detection are as follows.
 
@@ -334,6 +505,10 @@ The papers related to datasets used mainly in Object Detection are as follows.
 - **[COCO]** Microsoft COCO: Common Objects in Context | **[ECCV' 14]** | [`[pdf]`](https://arxiv.org/pdf/1405.0312.pdf) | [`[link]`](http://cocodataset.org/)
 
 - **[Open Images]** The Open Images Dataset V4: Unified image classification, object detection, and visual relationship detection at scale | **[arXiv' 18]** | [`[pdf]`](https://arxiv.org/pdf/1811.00982v1.pdf) | [`[link]`](https://storage.googleapis.com/openimages/web/index.html)
+
+- **[DOTA]** DOTA: A Large-scale Dataset for Object Detection in Aerial Images | **[CVPR' 18]** | [`[pdf]`](https://arxiv.org/pdf/1711.10398v3.pdf) | [`[link]`](https://captain-whu.github.io/DOTA/)
+
+- **[Objects365]** Objects365: A Large-Scale, High-Quality Dataset for Object Detection	| **[ICCV' 19]** | [`[link]`](https://www.biendata.com/competition/objects365/)
 
 ##
 
